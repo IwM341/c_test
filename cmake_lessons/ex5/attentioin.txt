@@ -1,0 +1,1 @@
+cmake with flag -DCMAKE_INSTALL_PREFIX

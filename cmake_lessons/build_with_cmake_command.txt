@@ -1,0 +1,5 @@
+set PATH=%PATH%;D:\Soft\Prog\Tools\mingw810_64\bin;D:\Soft\Prog\Tools\CMake_64\bin
+
+D:\Soft\Prog\Tools\CMake_64\bin\cmake [filename] -G"MinGW Makefiles" 
+
+cmake --build 

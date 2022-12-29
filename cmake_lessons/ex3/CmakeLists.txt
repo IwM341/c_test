@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.5)
+
+project(ex3 VERSION 0.0.1)
+
+set(SOURCES src/main.cpp src/version.cpp)
+set(HEADERS src/version.h)
+
+
+message("CMAKE_CURRENT_BINARY_DIR: " ${CMAKE_CURRENT_BINARY_DIR})
+configure_file(src/config.h.in ${CMAKE_CURRENT_BINARY_DIR}/config.h)
+
+add_executable(hello ${SOURCES} ${HEADERS})
+set_target_properties(hello PROPERTIES
+                        CXX_STANDART 11
+                        CXX_STANDART_REQUIRED ON)
+
+target_include_directories(hello PRIVATE ${CMAKE_CURRENT_BINARY_DIR})

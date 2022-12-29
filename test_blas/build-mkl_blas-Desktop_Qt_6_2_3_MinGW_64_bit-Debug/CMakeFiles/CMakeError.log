@@ -1,0 +1,50 @@
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: D:/Tmp/probs/c_tests/test_blas/build-mkl_blas-Desktop_Qt_6_2_3_MinGW_64_bit-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Soft/Prog/Tools/Ninja/ninja.exe cmTC_be0bd && [1/2] Building CXX object CMakeFiles/cmTC_be0bd.dir/CheckFunctionExists.cxx.obj
+[2/2] Linking CXX executable cmTC_be0bd.exe
+FAILED: cmTC_be0bd.exe 
+cmd.exe /C "cd . && D:\Soft\Prog\Tools\mingw900_64\bin\g++.exe -DCHECK_FUNCTION_EXISTS=sgemm_  CMakeFiles/cmTC_be0bd.dir/CheckFunctionExists.cxx.obj -o cmTC_be0bd.exe -Wl,--out-implib,libcmTC_be0bd.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+D:/Soft/Prog/Tools/mingw900_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_be0bd.dir/CheckFunctionExists.cxx.obj:CheckFunctionExists.cxx:(.text+0x15): undefined reference to `sgemm_'
+collect2.exe: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: D:/Tmp/probs/c_tests/test_blas/build-mkl_blas-Desktop_Qt_6_2_3_MinGW_64_bit-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Soft/Prog/Tools/Ninja/ninja.exe cmTC_3b020 && [1/2] Building CXX object CMakeFiles/cmTC_3b020.dir/CheckFunctionExists.cxx.obj
+[2/2] Linking CXX executable cmTC_3b020.exe
+FAILED: cmTC_3b020.exe 
+cmd.exe /C "cd . && D:\Soft\Prog\Tools\mingw900_64\bin\g++.exe -DCHECK_FUNCTION_EXISTS=sgemm_  CMakeFiles/cmTC_3b020.dir/CheckFunctionExists.cxx.obj -o cmTC_3b020.exe -Wl,--out-implib,libcmTC_3b020.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -SSL2  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+g++.exe: error: unrecognized command-line option '-SSL2'
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: D:/Tmp/probs/c_tests/test_blas/build-mkl_blas-Desktop_Qt_6_2_3_MinGW_64_bit-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Soft/Prog/Tools/Ninja/ninja.exe cmTC_70bcc && [1/2 18.4/sec] Building CXX object CMakeFiles/cmTC_70bcc.dir/CheckFunctionExists.cxx.obj
+[2/2 13.0/sec] Linking CXX executable cmTC_70bcc.exe
+FAILED: cmTC_70bcc.exe 
+cmd.exe /C "cd . && D:\Soft\Prog\Tools\mingw900_64\bin\g++.exe -DCHECK_FUNCTION_EXISTS=sgemm_  CMakeFiles/cmTC_70bcc.dir/CheckFunctionExists.cxx.obj -o cmTC_70bcc.exe -Wl,--out-implib,libcmTC_70bcc.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+D:/Soft/Prog/Tools/mingw900_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_70bcc.dir/CheckFunctionExists.cxx.obj:CheckFunctionExists.cxx:(.text+0x15): undefined reference to `sgemm_'
+collect2.exe: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: D:/Tmp/probs/c_tests/test_blas/build-mkl_blas-Desktop_Qt_6_2_3_MinGW_64_bit-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Soft/Prog/Tools/Ninja/ninja.exe cmTC_14d1c && [1/2 19.3/sec] Building CXX object CMakeFiles/cmTC_14d1c.dir/CheckFunctionExists.cxx.obj
+[2/2 26.0/sec] Linking CXX executable cmTC_14d1c.exe
+FAILED: cmTC_14d1c.exe 
+cmd.exe /C "cd . && D:\Soft\Prog\Tools\mingw900_64\bin\g++.exe -DCHECK_FUNCTION_EXISTS=sgemm_  CMakeFiles/cmTC_14d1c.dir/CheckFunctionExists.cxx.obj -o cmTC_14d1c.exe -Wl,--out-implib,libcmTC_14d1c.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -SSL2  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+g++.exe: error: unrecognized command-line option '-SSL2'
+ninja: build stopped: subcommand failed.
+
+
+

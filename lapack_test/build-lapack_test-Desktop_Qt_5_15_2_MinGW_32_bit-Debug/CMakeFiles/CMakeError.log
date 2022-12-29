@@ -1,0 +1,297 @@
+Determining if the CL_VERSION_2_2 exist failed with the following output:
+Change Dir: D:/Tmp/probs/c_tests/lapack_test/build-lapack_test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Soft/Prog/Tools/Ninja/ninja.exe cmTC_5e472 && [1/2 3.0/sec] Building CXX object CMakeFiles/cmTC_5e472.dir/CheckSymbolExists.cxx.obj
+FAILED: CMakeFiles/cmTC_5e472.dir/CheckSymbolExists.cxx.obj 
+D:\Soft\Prog\Tools\mingw810_32\bin\g++.exe  -I"C:/Program Files (x86)/OCL_SDK_Light/include"  -o CMakeFiles/cmTC_5e472.dir/CheckSymbolExists.cxx.obj -c D:/Tmp/probs/c_tests/lapack_test/build-lapack_test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+D:/Tmp/probs/c_tests/lapack_test/build-lapack_test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function 'int main(int, char**)':
+D:/Tmp/probs/c_tests/lapack_test/build-lapack_test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: 'CL_VERSION_2_2' was not declared in this scope
+   return ((int*)(&CL_VERSION_2_2))[argc];
+                   ^~~~~~~~~~~~~~
+D:/Tmp/probs/c_tests/lapack_test/build-lapack_test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: 'CL_VERSION_1_2'
+   return ((int*)(&CL_VERSION_2_2))[argc];
+                   ^~~~~~~~~~~~~~
+                   CL_VERSION_1_2
+ninja: build stopped: subcommand failed.
+
+
+File D:/Tmp/probs/c_tests/lapack_test/build-lapack_test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <C:/Program Files (x86)/OCL_SDK_Light/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_2
+  return ((int*)(&CL_VERSION_2_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_1 exist failed with the following output:
+Change Dir: D:/Tmp/probs/c_tests/lapack_test/build-lapack_test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Soft/Prog/Tools/Ninja/ninja.exe cmTC_bdfd6 && [1/2 18.6/sec] Building CXX object CMakeFiles/cmTC_bdfd6.dir/CheckSymbolExists.cxx.obj
+FAILED: CMakeFiles/cmTC_bdfd6.dir/CheckSymbolExists.cxx.obj 
+D:\Soft\Prog\Tools\mingw810_32\bin\g++.exe  -I"C:/Program Files (x86)/OCL_SDK_Light/include"  -o CMakeFiles/cmTC_bdfd6.dir/CheckSymbolExists.cxx.obj -c D:/Tmp/probs/c_tests/lapack_test/build-lapack_test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+D:/Tmp/probs/c_tests/lapack_test/build-lapack_test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function 'int main(int, char**)':
+D:/Tmp/probs/c_tests/lapack_test/build-lapack_test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: 'CL_VERSION_2_1' was not declared in this scope
+   return ((int*)(&CL_VERSION_2_1))[argc];
+                   ^~~~~~~~~~~~~~
+D:/Tmp/probs/c_tests/lapack_test/build-lapack_test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: 'CL_VERSION_1_1'
+   return ((int*)(&CL_VERSION_2_1))[argc];
+                   ^~~~~~~~~~~~~~
+                   CL_VERSION_1_1
+ninja: build stopped: subcommand failed.
+
+
+File D:/Tmp/probs/c_tests/lapack_test/build-lapack_test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <C:/Program Files (x86)/OCL_SDK_Light/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_1
+  return ((int*)(&CL_VERSION_2_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_2 exist failed with the following output:
+Change Dir: D:/Tmp/probs/c_tests/lapack_test/build-lapack_test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Soft/Prog/Tools/Ninja/ninja.exe cmTC_480f7 && [1/2] Building CXX object CMakeFiles/cmTC_480f7.dir/CheckSymbolExists.cxx.obj
+FAILED: CMakeFiles/cmTC_480f7.dir/CheckSymbolExists.cxx.obj 
+D:\Soft\Prog\Tools\mingw810_32\bin\g++.exe  -I"C:/Program Files (x86)/OCL_SDK_Light/include"  -o CMakeFiles/cmTC_480f7.dir/CheckSymbolExists.cxx.obj -c D:/Tmp/probs/c_tests/lapack_test/build-lapack_test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+D:/Tmp/probs/c_tests/lapack_test/build-lapack_test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function 'int main(int, char**)':
+D:/Tmp/probs/c_tests/lapack_test/build-lapack_test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: 'CL_VERSION_2_2' was not declared in this scope
+   return ((int*)(&CL_VERSION_2_2))[argc];
+                   ^~~~~~~~~~~~~~
+D:/Tmp/probs/c_tests/lapack_test/build-lapack_test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: 'CL_VERSION_1_2'
+   return ((int*)(&CL_VERSION_2_2))[argc];
+                   ^~~~~~~~~~~~~~
+                   CL_VERSION_1_2
+ninja: build stopped: subcommand failed.
+
+
+File D:/Tmp/probs/c_tests/lapack_test/build-lapack_test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <C:/Program Files (x86)/OCL_SDK_Light/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_2
+  return ((int*)(&CL_VERSION_2_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_1 exist failed with the following output:
+Change Dir: D:/Tmp/probs/c_tests/lapack_test/build-lapack_test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Soft/Prog/Tools/Ninja/ninja.exe cmTC_bc805 && [1/2] Building CXX object CMakeFiles/cmTC_bc805.dir/CheckSymbolExists.cxx.obj
+FAILED: CMakeFiles/cmTC_bc805.dir/CheckSymbolExists.cxx.obj 
+D:\Soft\Prog\Tools\mingw810_32\bin\g++.exe  -I"C:/Program Files (x86)/OCL_SDK_Light/include"  -o CMakeFiles/cmTC_bc805.dir/CheckSymbolExists.cxx.obj -c D:/Tmp/probs/c_tests/lapack_test/build-lapack_test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+D:/Tmp/probs/c_tests/lapack_test/build-lapack_test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function 'int main(int, char**)':
+D:/Tmp/probs/c_tests/lapack_test/build-lapack_test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: 'CL_VERSION_2_1' was not declared in this scope
+   return ((int*)(&CL_VERSION_2_1))[argc];
+                   ^~~~~~~~~~~~~~
+D:/Tmp/probs/c_tests/lapack_test/build-lapack_test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: 'CL_VERSION_1_1'
+   return ((int*)(&CL_VERSION_2_1))[argc];
+                   ^~~~~~~~~~~~~~
+                   CL_VERSION_1_1
+ninja: build stopped: subcommand failed.
+
+
+File D:/Tmp/probs/c_tests/lapack_test/build-lapack_test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <C:/Program Files (x86)/OCL_SDK_Light/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_1
+  return ((int*)(&CL_VERSION_2_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_0 exist failed with the following output:
+Change Dir: D:/Tmp/probs/c_tests/lapack_test/build-lapack_test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Soft/Prog/Tools/Ninja/ninja.exe cmTC_d6d6e && [1/2 1.2/sec] Building CXX object CMakeFiles/cmTC_d6d6e.dir/CheckSymbolExists.cxx.obj
+FAILED: CMakeFiles/cmTC_d6d6e.dir/CheckSymbolExists.cxx.obj 
+D:\Soft\Prog\Tools\mingw810_32\bin\g++.exe  -I"C:/Program Files (x86)/OCL_SDK_Light/include"  -o CMakeFiles/cmTC_d6d6e.dir/CheckSymbolExists.cxx.obj -c D:/Tmp/probs/c_tests/lapack_test/build-lapack_test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Assembler messages:
+Fatal error: can't create CMakeFiles/cmTC_d6d6e.dir/CheckSymbolExists.cxx.obj: No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+File D:/Tmp/probs/c_tests/lapack_test/build-lapack_test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <C:/Program Files (x86)/OCL_SDK_Light/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_0
+  return ((int*)(&CL_VERSION_2_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_0 exist failed with the following output:
+Change Dir: D:/Tmp/probs/c_tests/lapack_test/build-lapack_test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Soft/Prog/Tools/Ninja/ninja.exe cmTC_dc174 && [1/2] Building CXX object CMakeFiles/cmTC_dc174.dir/CheckSymbolExists.cxx.obj
+[2/2] Linking CXX executable cmTC_dc174.exe
+FAILED: cmTC_dc174.exe 
+cmd.exe /C "cd . && D:\Soft\Prog\Tools\mingw810_32\bin\g++.exe   CMakeFiles/cmTC_dc174.dir/CheckSymbolExists.cxx.obj -o cmTC_dc174.exe -Wl,--out-implib,libcmTC_dc174.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+g++.exe: error: CMakeFiles/cmTC_dc174.dir/CheckSymbolExists.cxx.obj: No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+File D:/Tmp/probs/c_tests/lapack_test/build-lapack_test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <C:/Program Files (x86)/OCL_SDK_Light/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_0
+  return ((int*)(&CL_VERSION_2_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_1_2 exist failed with the following output:
+Change Dir: D:/Tmp/probs/c_tests/lapack_test/build-lapack_test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Soft/Prog/Tools/Ninja/ninja.exe cmTC_3e233 && ninja: error: unknown target 'cmTC_3e233'
+
+
+File D:/Tmp/probs/c_tests/lapack_test/build-lapack_test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <C:/Program Files (x86)/OCL_SDK_Light/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_2
+  return ((int*)(&CL_VERSION_1_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_1_2 exist failed with the following output:
+Change Dir: D:/Tmp/probs/c_tests/lapack_test/build-lapack_test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Soft/Prog/Tools/Ninja/ninja.exe cmTC_a773c && ninja: error: loading 'build.ninja': ═х єфрхЄё  эрщЄш єърчрээ√щ Їрщы.
+
+
+
+File D:/Tmp/probs/c_tests/lapack_test/build-lapack_test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <C:/Program Files (x86)/OCL_SDK_Light/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_2
+  return ((int*)(&CL_VERSION_1_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_1_1 exist failed with the following output:
+Change Dir: D:/Tmp/probs/c_tests/lapack_test/build-lapack_test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Soft/Prog/Tools/Ninja/ninja.exe cmTC_860c1 && ninja: error: unknown target 'cmTC_860c1'
+
+
+File D:/Tmp/probs/c_tests/lapack_test/build-lapack_test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <C:/Program Files (x86)/OCL_SDK_Light/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_1
+  return ((int*)(&CL_VERSION_1_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_1_1 exist failed with the following output:
+Change Dir: D:/Tmp/probs/c_tests/lapack_test/build-lapack_test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Soft/Prog/Tools/Ninja/ninja.exe cmTC_c6894 && ninja: error: loading 'build.ninja': ═х єфрхЄё  эрщЄш єърчрээ√щ Їрщы.
+
+
+
+File D:/Tmp/probs/c_tests/lapack_test/build-lapack_test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <C:/Program Files (x86)/OCL_SDK_Light/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_1
+  return ((int*)(&CL_VERSION_1_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_1_0 exist failed with the following output:
+Change Dir: D:/Tmp/probs/c_tests/lapack_test/build-lapack_test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Soft/Prog/Tools/Ninja/ninja.exe cmTC_98dde && ninja: error: unknown target 'cmTC_98dde'
+
+
+File D:/Tmp/probs/c_tests/lapack_test/build-lapack_test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <C:/Program Files (x86)/OCL_SDK_Light/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_0
+  return ((int*)(&CL_VERSION_1_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_1_0 exist failed with the following output:
+Change Dir: D:/Tmp/probs/c_tests/lapack_test/build-lapack_test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Soft/Prog/Tools/Ninja/ninja.exe cmTC_f5a14 && ninja: error: loading 'build.ninja': ═х єфрхЄё  эрщЄш єърчрээ√щ Їрщы.
+
+
+
+File D:/Tmp/probs/c_tests/lapack_test/build-lapack_test-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <C:/Program Files (x86)/OCL_SDK_Light/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_0
+  return ((int*)(&CL_VERSION_1_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}

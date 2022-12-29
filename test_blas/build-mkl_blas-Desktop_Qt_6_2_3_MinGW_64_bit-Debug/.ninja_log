@@ -1,0 +1,7 @@
+# ninja log v5
+1	146	6927372197158126	build.ninja	6c011484b3ddf2b1
+4	1283	6924818900624016	CMakeFiles/mkl_blas_test.dir/main.cpp.obj	c2cf39d1315953cb
+1283	1410	6924818901853251	mkl_blas_test.exe	13be0a918fcd8fb0
+4	280	6927372240511432	mkl_blas_test.exe	536b3c0b864a89eb
+3	1884	6927372590276789	CMakeFiles/mkl_blas_test.dir/main.cpp.obj	c2cf39d1315953cb
+1884	2102	6927372592485404	mkl_blas_test.exe	536b3c0b864a89eb

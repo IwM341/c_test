@@ -1,0 +1,8 @@
+# ninja log v5
+1	165	6927781742624708	build.ninja	347bd2cb2db9874b
+4	3900	6924522547255041	CMakeFiles/lapack_test.dir/main.cpp.obj	9241b3ac5ae30a1c
+3901	4102	6924522549413693	lapack_test.exe	a1971fe7f50bd09d
+4	5505	6927782174819157	CMakeFiles/lapack_test.dir/main.cpp.obj	9241b3ac5ae30a1c
+5506	5976	6927782179452495	lapack_test.exe	a1971fe7f50bd09d
+4	3809	6927806017154256	CMakeFiles/lapack_test.dir/main.cpp.obj	9241b3ac5ae30a1c
+3809	4634	6927806025309234	lapack_test.exe	a1971fe7f50bd09d

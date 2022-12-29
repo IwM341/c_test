@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.5)
+project(ex1)
+
+add_executable(hello src/main.cpp)
+set_target_properties(hello PROPERTIES
+                        CXX_STANDART 11
+                        CXX_STANDART_REQUIRED ON)

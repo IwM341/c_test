@@ -1,0 +1,4 @@
+D:/Tmp/probs/c_tests/cmake_lessons/ex5/lib/build/install/lib/libmlib.a
+D:/Tmp/probs/c_tests/cmake_lessons/ex5/lib/build/install/include/lib.h
+D:/Tmp/probs/c_tests/cmake_lessons/ex5/lib/build/install/lib/cmake/Library/mlibConfig.cmake
+D:/Tmp/probs/c_tests/cmake_lessons/ex5/lib/build/install/lib/cmake/Library/mlibConfig-noconfig.cmake

@@ -1,0 +1,3 @@
+D:/Tmp/probs/c_tests/cmake_lessons/ex5/src/build/CMakeFiles/hello.dir
+D:/Tmp/probs/c_tests/cmake_lessons/ex5/src/build/CMakeFiles/edit_cache.dir
+D:/Tmp/probs/c_tests/cmake_lessons/ex5/src/build/CMakeFiles/rebuild_cache.dir

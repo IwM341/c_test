@@ -1,0 +1,24 @@
+cmake_minimum_required(VERSION 3.5)
+
+project(Library VERSION 0.0.2)
+
+set(SOURCES src/lib.cpp)
+set(HEADERS src/lib.h)
+
+add_library(mlib STATIC ${SOURCES} ${HEADERS})
+
+set_target_properties(mlib PROPERTIES
+                        CXX_STANDART 11
+                        CXX_STANDART_REQUIRED ON)
+
+install(TARGETS mlib EXPORT libTargets 
+        LIBRARY  DESTINATION lib
+        ARCHIVE  DESTINATION lib
+        INCLUDES DESTINATION include) 
+
+install(FILES  ${HEADERS} DESTINATION include)
+
+install(EXPORT libTargets
+        FILE mlibConfig.cmake
+        NAMESPACE Library::
+        DESTINATION lib/cmake/Library)

@@ -1,0 +1,8 @@
+D:/Tmp/probs/c_tests/cmake_lessons/ex4/build/CMakeFiles/edit_cache.dir
+D:/Tmp/probs/c_tests/cmake_lessons/ex4/build/CMakeFiles/rebuild_cache.dir
+D:/Tmp/probs/c_tests/cmake_lessons/ex4/build/src/CMakeFiles/hello.dir
+D:/Tmp/probs/c_tests/cmake_lessons/ex4/build/src/CMakeFiles/edit_cache.dir
+D:/Tmp/probs/c_tests/cmake_lessons/ex4/build/src/CMakeFiles/rebuild_cache.dir
+D:/Tmp/probs/c_tests/cmake_lessons/ex4/build/lib/CMakeFiles/lib.dir
+D:/Tmp/probs/c_tests/cmake_lessons/ex4/build/lib/CMakeFiles/edit_cache.dir
+D:/Tmp/probs/c_tests/cmake_lessons/ex4/build/lib/CMakeFiles/rebuild_cache.dir

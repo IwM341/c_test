@@ -1,0 +1,7 @@
+D:/Tmp/probs/c_tests/cmake_lessons/ex5/lib/build/CMakeFiles/mlib.dir
+D:/Tmp/probs/c_tests/cmake_lessons/ex5/lib/build/CMakeFiles/install/local.dir
+D:/Tmp/probs/c_tests/cmake_lessons/ex5/lib/build/CMakeFiles/install.dir
+D:/Tmp/probs/c_tests/cmake_lessons/ex5/lib/build/CMakeFiles/edit_cache.dir
+D:/Tmp/probs/c_tests/cmake_lessons/ex5/lib/build/CMakeFiles/rebuild_cache.dir
+D:/Tmp/probs/c_tests/cmake_lessons/ex5/lib/build/CMakeFiles/list_install_components.dir
+D:/Tmp/probs/c_tests/cmake_lessons/ex5/lib/build/CMakeFiles/install/strip.dir
